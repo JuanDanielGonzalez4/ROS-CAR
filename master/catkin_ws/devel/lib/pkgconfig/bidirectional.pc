@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/devel
+
+Name: bidirectional
+Description: Description of bidirectional
+Version: 0.0.0
+Cflags: 
+Libs: 
+Requires: 

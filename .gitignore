@@ -1,0 +1,5 @@
+/client/catkin_ws/build/gtest
+/client/catkin_ws/build/
+/client/catkin_ws/devel/
+/client/catkin_ws/install/
+/client/catkin_ws/src/CMakeLists.txt

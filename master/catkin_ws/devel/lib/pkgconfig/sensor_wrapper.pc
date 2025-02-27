@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/devel
+
+Name: sensor_wrapper
+Description: Description of sensor_wrapper
+Version: 0.0.0
+Cflags: 
+Libs: 
+Requires: 

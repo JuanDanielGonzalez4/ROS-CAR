@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/install
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.16.2
+Cflags: 
+Libs: 
+Requires: 
