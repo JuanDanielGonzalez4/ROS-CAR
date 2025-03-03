@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/devel
+
+Name: diff_wheeled_control
+Description: Description of diff_wheeled_control
+Version: 0.0.0
+Cflags: 
+Libs: 
+Requires: 

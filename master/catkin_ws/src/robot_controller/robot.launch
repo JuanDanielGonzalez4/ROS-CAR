@@ -1,0 +1,7 @@
+<launch>
+  <!-- Nodo que publica la distancia ultrasónica -->
+  <node name="ultrasonic_sensor" pkg="robot_controller" type="scripts/ultrasonic_node.py" output="screen"/>
+  
+  <!-- Nodo integrado que controla el servo basándose en la distancia -->
+  <node name="integrated_controller" pkg="robot_controller" type="scripts/integrated_control.py" output="screen"/>
+</launch>

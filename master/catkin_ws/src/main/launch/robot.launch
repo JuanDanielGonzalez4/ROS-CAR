@@ -1,0 +1,39 @@
+<launch>
+  <!-- CAR -->
+  <node
+    pkg="diff_wheeled_control"
+    type="car_control.py"
+    name="diff_wheeled_control"
+    output="screen" >
+  </node>
+
+  <!-- IMU -->
+  <node
+    pkg="sensor_wrapper"
+    type="sensor_node.py"
+    name="mpu6050"
+    output="screen" >
+  </node>
+
+  <!-- ULTRASONIC -->
+  <node
+    pkg="ultrasonic_sensor"
+    type="ultrasonic_node.py"
+    name="ultrasonic_sensor"
+    output="screen" >
+  </node>
+
+  <!-- USB CAM -->
+  <node
+    pkg="usb_cam"
+    type="usb_cam_node"
+    name="usb_cam"
+    output="screen">
+    <!-- Parámetros de la cámara -->
+    <param name="video_device" value="/dev/video0" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="image_width" value="160" />
+    <param name="image_height" value="120" />
+    <param name="framerate" value="1" />
+  </node>
+</launch>

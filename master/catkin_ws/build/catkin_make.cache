@@ -1,2 +1,2 @@
-bidirectional:sensor_wrapper:servo_control:usb_cam:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+bidirectional:diff_wheeled_control:main:robot_controller:sensor_wrapper:servo_control:ultrasonic_sensor:usb_cam:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
 -DCATKIN_DEVEL_PREFIX=/home/test/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/test/catkin_ws/install -G Unix Makefiles

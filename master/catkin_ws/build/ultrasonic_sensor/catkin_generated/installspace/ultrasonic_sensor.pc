@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/install
+
+Name: ultrasonic_sensor
+Description: Description of ultrasonic_sensor
+Version: 0.0.0
+Cflags: 
+Libs: 
+Requires: 
